@@ -1,0 +1,19 @@
+Algorithm
+
+1.Wake up.
+2.Clean the house.
+3.Going to the market.
+4.Prepare tea.
+
+
+
+function market(){
+var "visitMarket"=goingToMarket;
+var res
+If(visitMarket){
+return res="buyFruits";
+}else{
+return res="prpareTea";
+}
+}
+console.log(visitMarket());
